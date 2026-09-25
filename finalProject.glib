@@ -1,0 +1,29 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 5     0 0 0    0 1 0
+
+Vertex   	fractal.vert
+Geometry 	fractal.geom
+Fragment 	fractal.frag
+Program 	Fractal				\
+	uDepthRes	<5 18 35>		\
+    uDepth		<.1 2.3 6.>		\
+	uWidth		<1. 3. 4.5>		\
+	uRotWithCam	<false>			\
+	uType		<0 1 3>			\
+	uScale		<.01 1.5 30.>	\
+	uIterCount	<2 20 200>		\
+	uW			<-2. 0. 2.>		\
+	uOrder		<3 8 12>		\
+	uZx			<-1. .0 1.>		\
+	uZy			<-1. .0 1.>		\
+	uZz			<-1. .0 1.>		\
+	uZw			<-1. .0 1.>		\
+	uFogStart	<0. 1.1 2.5>	\
+	uFogEnd		<2.5 7.2 10.>	\
+	uColor1		{.3 .9 .2 1.}	\
+	uColor2		{.5 .2 .9 1.}
+ 
+# Geometry splits point into quads perp. to looking vector
+# PointCloud	1 1 1
+Obj	triangle.obj
