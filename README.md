@@ -2,7 +2,7 @@
 
 A tool which visualizes the 3D projections of 4D fractals in a series of 2D cross sections. Supports the Mandelbrot set, Julia set, and Mandelbulb fractals. Highly configurable.
 
-Made as my final project in Mike Bailey's Winter 2025 CS 457 at OSU. This project is really just pure GLSL shader code which is meant to run in Mike Bailey's lightweight OpenGL visualizer program [glman](https://web.engr.oregonstate.edu/~mjb/glman/).
+Made as my final project in Mike Bailey's Winter 2025 CS 457 at OSU. This project is really just pure GLSL shader code which is meant to run in Mike Bailey's lightweight OpenGL visualizer program [glman](https://web.engr.oregonstate.edu/~mjb/glman/). A portable .zip package that includes all dependencies is available on the GitHub repo's release.
 
 All code in this repository by Reed Evertt. No rights reserved. Have fun with this one, you can get some really cool results!
 
@@ -28,7 +28,8 @@ Below are some more screenshots of the myriad variegated fractals that can be ge
 
 
 ## Installation/Operation
-- Download and run glman.exe ([link for windows](https://web.engr.oregonstate.edu/~mjb/glman/GlmanWindows/glman.exe))
+- Download and run glman.exe with required .dll's
+	- Alternatively, download the ZIP release on the repo with everything included!
 - Click "load a GLIB file" and select "finalProject.glib"
 - Navigate to the "Main User Interface Window" to edit axis rendering, background color, and view transform *(warning: orthographic projection may break depth values)*
 - Navigate to the "GLman Shader Parameter User Interface" to edit the following options and alter the rendered frame:
