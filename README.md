@@ -16,13 +16,13 @@ All code in this repository by Reed Evertt. No rights reserved. Have fun with th
 ## Video Demo + Screenshots
 Below is my original video demo from CS 457 (with narration!):
 
-
+https://github.com/user-attachments/assets/93c98181-37a8-4965-ac03-2550b1ded8f5
 
 Below are some more screenshots of the myriad variegated fractals that can be generated:
 
 <img src="https://raw.githubusercontent.com/everttr/fractal-flattenerizer/main/images/mandelbrot _horiz.png" alt="4D Offset Mandelbrot Set" width="450"/>
 
-<img src="https://raw.githubusercontent.com/everttr/fractal-flattenerizer/main/images/julia_vertical.png" alt="4D Offset Julia Set" width="450"/>
+<img src="https://raw.githubusercontent.com/everttr/fractal-flattenerizer/main/images/julia_vertical.png" alt="4D Offset Julia Set" height="450"/>
 
 <img src="https://raw.githubusercontent.com/everttr/fractal-flattenerizer/main/images/mandelbulb_order3.png" alt="Mandelbulb of Order 3" width="450"/>
 
